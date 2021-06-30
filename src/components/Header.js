@@ -274,11 +274,11 @@ render() {
 
             </div>
 
-            <ActionCableConsumer
+            {/* <ActionCableConsumer
                 channel={{ channel: 'NotificationChannel', user_id: this.props.user.id }}
                 onReceived={this.handleRecieveNotification}
                 onConnected={this.handleOnConnected}
-            />
+            /> */}
 
 
         </nav >

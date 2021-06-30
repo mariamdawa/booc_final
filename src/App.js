@@ -105,7 +105,7 @@ class App extends Component {
     // this.handleLogout=this.handleLogout.bind(this);
   }
   is_logged_in(user_id) {
-    axios.post(`http://${PRODUCTION_BACKEND_URL}:3000/logged_in`,
+    axios.post(`${PRODUCTION_BACKEND_URL}:3000/logged_in`,
       {
         member: {
           id: user_id
